@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "email": "and3rsonsp3cht@gmail.com",
+        "ip": "::1",
+        "date": "2020-01-15 07:05:30"
+    },
+    {
+        "id": 1,
+        "email": "guspecht@teste.com",
+        "ip": "::1",
+        "date": "2020-01-15 07:05:42"
+    },
+    {
+        "id": 2,
+        "email": "guspecht@hotmail.com",
+        "ip": "189.4.122.19",
+        "date": "2020-01-19 12:55:05"
+    }
+]

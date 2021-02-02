@@ -1,0 +1,365 @@
+/* Base: https://dzone.com/articles/using-csshtml-make-responsive */
+
+/* Start Responsive Css */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    /* Start Header */
+    header .container{
+        font-size: 5vw;
+    }
+
+    header #logo a{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    
+    header nav{
+        float: none;
+        text-align: center;
+    }
+    
+    header nav ul li{
+        padding: 0 5px;
+    }
+    /* End Header */
+
+    /* Start Youtubevideos */
+    section#youtubevideos #watch p{
+        font-size: 8vw;
+    }
+    
+    section#youtubevideos .title {
+        font-size: 6.5vw;
+    }
+    
+    .container-2-incolumn{
+        width: 100%;
+        padding: 3%;
+        float: none;
+
+    }
+    
+    .container-1{
+        width: 100%;
+        padding: 3%;
+        float: none;
+    }
+    
+    .container-3-inline{
+        width: 100%;
+        float: none;
+        padding: 3%;
+    }
+    /* End Youtubevideos */
+
+    /* Start Newsletter */
+    section#newsletter {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    section#newsletter .title{
+        font-size: 8.5vw;
+        text-align: center;
+    }
+
+    section#newsletter form{
+        text-align: center;
+    }
+
+    section#newsletter input{
+        width: 90%;
+        font-size: 4vw;
+    }
+    section#newsletter button{
+        width: 70%;
+        font-size: 5vw;
+        margin-top: 5px;
+    }
+    /* End Newsletter */
+
+    /* Start more-info */
+    section#more-info .text-3{
+        width: 100%;
+        float: none;
+        font-size: 6vw;
+        margin: 0 0;
+    }
+    /* End more-info */
+
+    /* Start Socials */
+    section#socials{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    section#socials h5{
+        font-size: 7.5vw;
+    }
+
+    section#socials a i{
+        font-size: 18vw;
+    }
+    /* End Socials */
+
+    /* Start Footer */
+    footer{
+        padding: 30px;
+        margin-bottom: 30px;
+        font-size: 5.5vw;
+    }
+    /* End Footer */
+
+    /* Start About */
+    section#about {
+        margin-top: 30px;
+        font-size: 6vw;
+    }
+
+    section#about h1{
+        text-align: center;
+        font-size: 8vw;
+        margin-bottom: 30px;
+    }
+    /* End About */
+
+    /* Start Contact */
+    section#contact .block{
+        width: 95%;
+    }
+
+    section#contact button{
+        width: 55%;
+        font-size: 8vw;
+        height: auto;
+    }
+
+    section#contact input{
+        width: 65%;
+    }
+
+    section#contact textarea{
+        width: 65%;
+    }
+
+    section#contact form label{
+        font-size: 6vw;
+    }
+
+    section#contact h1{
+        font-size: 8vw;
+    }
+    /* End Contact */
+
+    /* Start Specs */
+    section#specs {
+        margin-top: 10px;
+    }
+
+    section#specs h1 {
+        font-size: 6.5vw;
+        margin-bottom: 10px;
+    }
+
+    section#specs img {
+        /* width: 120px; */
+        width: 90%;
+    }
+
+    section#specs table {
+        padding: 5px;
+        font-size: 2vw;
+    }
+
+    section#specs table tr td{
+        padding: 3px 10px;
+    }
+        /* End Specs */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    /* Start Newsletter */
+    section#newsletter .title{
+        font-size: 6.5vw;
+    }
+
+    section#newsletter input{
+        width: 55%;
+        font-size: 3vw;
+        height: auto;
+    }
+
+    section#newsletter button{
+        width: 30%;
+        font-size: 3vw;
+    }
+    /* End Newsletter */
+
+    /* Start more-info */
+    section#more-info .text-3{
+        font-size: 3.5vw;
+    }
+    /* End more-info */
+
+    /* Start Socials */
+    section#socials h5{
+        font-size: 4.5vw;
+    }
+
+    section#socials a i{
+        font-size: 5vw;
+    }
+    /* End Socials */
+
+    /* Start Footer */
+    footer{
+        padding: 20px;
+        font-size: 2.5vw;
+    }
+    /* End Footer */
+
+    /* Start About */
+    section#about {
+        margin-top: 30px;
+        font-size: 3vw;
+    }
+
+    section#about h1{
+        text-align: center;
+        font-size: 8vw;
+        margin-bottom: 30px;
+    }
+    /* End About */
+
+
+    /* Start Specs */
+    section#specs {
+        margin-top: 10px;
+    }
+
+    section#specs h1 {
+        font-size: 6.5vw;
+        margin-bottom: 10px;
+    }
+
+    section#specs img {
+        /* width: 120px; */
+        width: 90%;
+    }
+
+    section#specs table {
+        padding: 10px;
+        font-size: 2vw;
+    }
+
+    section#specs table tr td{
+        padding: 3px 10px;
+    }
+    /* End Specs */   
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    /* Start Newsletter */
+       section#newsletter .title{
+        font-size: 5.5vw;
+    }
+
+    section#newsletter input{
+        width: 55%;
+        font-size: 2vw;
+        height: auto;
+    }
+
+    section#newsletter button{
+        width: 30%;
+        font-size: 2vw;
+    }
+    /* End Newsletter */
+
+    /* Start more-info */
+    section#more-info .text-3{
+        font-size: 2.5vw;
+    }
+    /* End more-info */
+
+    /* Start Socials */
+    section#socials h5{
+        font-size: 3.5vw;
+    }
+
+    section#socials a i{
+        font-size: 4vw;
+    }
+    /* End Socials */
+
+    /* Start Footer */
+    footer{
+        padding: 20px;
+        font-size: 2vw;
+    }
+    /* End Footer */
+
+    /* Start About */
+    section#about {
+        margin-top: 30px;
+        font-size: 3vw;
+    }
+
+    section#about h1{
+        text-align: center;
+        font-size: 6vw;
+        margin-bottom: 30px;
+    }
+    /* End About */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {  
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+
+/* End Responsive Css */

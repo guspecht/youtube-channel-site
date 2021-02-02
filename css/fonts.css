@@ -1,0 +1,21 @@
+/* Start Imports */
+
+/* Importing Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+/* End Imports */
+
+/* -------------------------------------------------*/
+
+/* Font Family */
+@font-face {
+    font-family: 'Burbank Big Condensed';
+    src: url('../fonts/BurbankBigCondensedBlack/BurbankBigCondensed-Black.eot');
+    src: url('../fonts/BurbankBigCondensedBlack/BurbankBigCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BurbankBigCondensedBlack/BurbankBigCondensed-Black.woff2') format('woff2'),
+        url('../fonts/BurbankBigCondensedBlack/BurbankBigCondensed-Black.woff') format('woff'),
+        url('../fonts/BurbankBigCondensedBlack/BurbankBigCondensed-Black.ttf') format('truetype'),
+        url('../fonts/BurbankBigCondensedBlack/BurbankBigCondensed-Black.svg#BurbankBigCondensed-Black') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
